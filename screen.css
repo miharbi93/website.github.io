@@ -1,0 +1,103 @@
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .header{
+        width: 100%;
+    }
+
+    .header h1{
+        font-size: 25px;
+        text-shadow: 3px 3px 5px rgb(128,300, 100, 111);
+        text-align: center;
+        text-overflow: ellipsis;
+}
+
+    .menu{
+        width: 90%;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .cv{
+        background-color: rgb(252, 246, 247);
+        font-size: medium;
+        height: 2450px;
+    }
+    .cv-center{
+        height: 2420px;
+    }
+
+    #time{
+        font-size: 5px;
+    }
+
+
+   p , ol li{
+        font-size: 12px;
+    }
+
+    li a{
+        font-size: 12px;
+    }
+
+    td ,th{
+        font-size: 12px;
+    }
+
+    .map{
+        height: 1100px;
+       
+    }
+
+    .map-place{
+        height: 1050px;
+    }
+
+
+    .user-data{
+        height: 250px;
+    }
+
+    #log{
+        font-size: 12px;
+    }
+    input[type="text"] , input[type="password"],input[type="email"]{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 5px;
+        border: 1px solid black;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    form{
+        margin-left: 20px;
+        width: 270px;
+        margin: 0 auto;
+        font-size: 12px;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #999999;
+    }
+
+    .info{
+        width: 90%;
+        height: 150px;
+        margin-top: 30px;
+        background-color: rgb(233, 241, 233);
+        margin-left: 5%;
+        margin-right: 5%;
+        border: 1px solid lightblue;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    .info p, h3, h6{
+        margin-left: 5px;
+    }
+
+}
+
+
+
+

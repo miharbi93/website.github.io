@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="screen.css" type="text/css">
+    <title>Personal Web</title>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Curriculam Vitae - CV</h1>
+    </div>
+
+    <div class="menu">
+
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact Us</a></li></a>
+            <li><a href="index.html">CV</a></li>
+        </ul>
+
+        <p id="time"></p>
+
+    </div>
+
+    <div class="map">
+        <br>
+        <div class="map-place">
+            <p>Google Map Location</p>
+            <br>
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.934974356105!2d39.31023575!3d-6.19973215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185cd86f80e1becd%3A0x670d4c8e55b47d57!2sState%20University%20of%20Zanzibar!5e0!3m2!1sen!2stz!4v1683026759911!5m2!1sen!2stz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+
+           <br>
+           <br>
+           <form  id="formLove">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <h6>Field with * means required</h6>
+                    <p><span>Name*</span></p>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    <p><span>Address*</span></p>
+                    <input type="text" name="address" id="address" placeholder="Enter your address">
+                    <p><span>Email*</span></p>
+                    <input type="email" name="email" id="email" placeholder="Enter your email [@gmail]">
+                    <p><span>Comment</span></p>
+                    <textarea name="comm" id="comm" cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+                    <button id="yoo" onclick="saveData()">Submit</button>
+                </fieldset>
+           </form>
+        
+           <div class="info">
+                <h3>Local Storage Information</h3>
+
+                <p id="jina"></p>
+                <p id="anuani"></p>
+                <p id="emali"></p>
+                <p id="comenti"></p>
+
+           </div>      
+    </div>
+
+    <div class="footer">
+        <p id="foo">IbrahimCv&copy2023</p>
+    </div>
+    <script src="myscript.js"></script>
+    <script src="LocalScript.js"></script>
+</body>
+</html>
