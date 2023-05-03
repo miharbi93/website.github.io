@@ -46,6 +46,11 @@ li a{
 li a:hover{
     background-color: coral;
 }
+
+#none{
+    list-style-type: none;
+}
+
 .cv{
     width: 95%;
     height: 2600px;
